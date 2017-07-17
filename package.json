@@ -1,0 +1,51 @@
+{
+  "name": "progressus",
+  "version": "1.0.0-alpha.1",
+  "description": "Yet another Progress Bar written in Javascript.",
+  "main": "dist/progressus.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "",
+    "build-min-js": "browserify src/progressus.js --standalone Progressus | uglifyjs -o dist/progressus.min.js -c -m",
+    "build-min-css": "uglifycss src/progressus.css > dist/progressus.min.css",
+    "build-min-all": "npm run build-min-js & npm run build-min-css",
+    "build-dev-js": "browserify src/progressus.js --standalone Progressus > dist/progressus.js",
+    "build-dev-css": "uglifycss --debug src/progressus.css > dist/progressus.css",
+    "build-dev-all": "npm run build-dev-js & npm run build-dev-css",
+    "build": "npm run build-dev-all & npm run build-min-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcsmorais/progressus.git"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "js",
+    "javascript"
+  ],
+  "author": "João Morais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcsmorais/progressus/issues"
+  },
+  "homepage": "https://github.com/jcsmorais/progressus#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "browserify-babel-istanbul": "^0.4.0",
+    "browserify-istanbul": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-source-map-support": "^1.2.0",
+    "karma-spec-reporter": "0.0.31",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.7",
+    "uglify-es": "^3.0.24",
+    "uglifycss": "0.0.27"
+  }
+}
