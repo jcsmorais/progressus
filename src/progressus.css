@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) 2017 João Morais under the MIT license.
+ * https://github.com/jcsmorais/progressus
+ */
+
+.progressus {
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: linear-gradient(347deg, #d69f9f, #7c2121);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.progressus > .progress-bar-progress {
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    opacity: .2;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.progressus > .progress-bar-value {
+    padding: 5px;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+}
+
+.progressus > .progress-bar-text {
+    padding: 5px;
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
