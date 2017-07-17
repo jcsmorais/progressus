@@ -1,6 +1,13 @@
 # Progressus [![Build Status](https://travis-ci.org/jcsmorais/progressus.svg?branch=master)](https://travis-ci.org/jcsmorais/progressus) [![Coverage Status](https://coveralls.io/repos/github/jcsmorais/progressus/badge.svg?branch=master)](https://coveralls.io/github/jcsmorais/progressus?branch=master)
 Yet another Progress Bar written in Javascript.
 
+# Usage examples
+* [Progress Bar with default options](https://jsfiddle.net/jcsmorais/Lzkuz6af/)
+* [Progress Bar with starting value](https://jsfiddle.net/jcsmorais/5jqc3xw7/)
+* [Progress Bar with custom formatter](https://jsfiddle.net/jcsmorais/7phwqjod/)
+* [Progress Bar with custom style](https://jsfiddle.net/jcsmorais/3wken654/)
+* [Progress Bar with custom style and animation](https://jsfiddle.net/jcsmorais/852hehrL/)
+
 # API
 | Method        | Params              | Type     | Description                                                                                                                 |
 |---------------|---------------------|----------|-------------------------------------------------------------------|
