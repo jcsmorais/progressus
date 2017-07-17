@@ -1,0 +1,15 @@
+# npm
+node_modules
+
+# osx
+*.DS_Store
+
+# code coverage
+coverage
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
