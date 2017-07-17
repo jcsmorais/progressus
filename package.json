@@ -36,6 +36,7 @@
     "browserify": "^14.4.0",
     "browserify-babel-istanbul": "^0.4.0",
     "browserify-istanbul": "^2.0.0",
+    "coveralls": "^2.13.1",
     "istanbul": "^0.4.5",
     "karma": "^1.7.0",
     "karma-browserify": "^5.1.1",

@@ -10,3 +10,5 @@ language: node_js
 
 node_js:
   - '7'
+
+after_script: 'cat ./coverage/HeadlessChrome*/lcov.info | ./node_modules/coveralls/bin/coveralls.js'
